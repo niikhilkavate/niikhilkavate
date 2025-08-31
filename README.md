@@ -1,5 +1,4 @@
-# 👋 Hi, I'm Nikhil Kavate
-
+# 👋 Hi, I'm Nikhil
 💻 **Embedded Systems Engineer | IoT Developer | PLC Programmer**  
 🎓 PG-DESD (CDAC) | B.Sc. & M.Sc. in Electronics  
 📍 India | 🌍 Open to relocation  
