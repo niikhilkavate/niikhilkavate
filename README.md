@@ -10,7 +10,7 @@
 
 ---
 
-## 📝 [Projects](#bottom)
+## 📝 [Goto Projects](#bottom)
 
 ---
 
