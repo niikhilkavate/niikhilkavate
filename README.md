@@ -49,39 +49,30 @@ LPWAN, LoRa, REST, Wireless LAN, RTOSOperating
 
 ### Languages
 
-![Python](https://img.shields.io/badge/-Python-000?&logo=Python)
-![JavaScript](https://img.shields.io/badge/-JavaScript-000?&logo=JavaScript)
-![C](https://img.shields.io/badge/-C-000?&logo=C)
-![Java](https://img.shields.io/badge/-Java-000?&logo=Java&logoColor=007396)
-![TypeScript](https://img.shields.io/badge/-TypeScript-000?&logo=TypeScript)
-![C++](https://img.shields.io/badge/-C++-000?&logo=c%2b%2b&logoColor=00599C)
-![SQL](https://img.shields.io/badge/-SQL-000?&logo=MySQL)
-![Swift](https://img.shields.io/badge/-Swift-000?&logo=Swift)
-
-
-
-
-
 ![C](https://img.shields.io/badge/-C-000?&logo=C)
 ![C++](https://img.shields.io/badge/-C++-000?&logo=C%2B%2B&logoColor=00599C)
 ![Python](https://img.shields.io/badge/-Python-000?&logo=Python)
-![Assembly](https://img.shields.io/badge/-Assembly-000?&logo=asm)
 ![Bash](https://img.shields.io/badge/-Bash-000?&logo=gnu-bash&logoColor=white)
 ![SQL](https://img.shields.io/badge/-SQL-000?&logo=MySQL&logoColor=white)
+![Assembly](https://img.shields.io/badge/-Assembly-000?&logo=asm)
 
 
 ### Technologies
 
-![AWS](https://img.shields.io/badge/-AWS-000?&logo=Amazon-AWS&logoColor=F90)
-![Docker](https://img.shields.io/badge/-Docker-000?&logo=Docker)
-![Kubernetes](https://img.shields.io/badge/-Kubernetes-000?&logo=Kubernetes)
+![CAN](https://img.shields.io/badge/-CAN-000?&logoColor=white)
+![I2C](https://img.shields.io/badge/-I²C-000?&logoColor=white)
+![SPI](https://img.shields.io/badge/-SPI-000?&logoColor=white)
+![UART](https://img.shields.io/badge/-UART-000?&logoColor=white)
+![CoAP](https://img.shields.io/badge/-CoAP-000?&logoColor=white)
+![MQTT](https://img.shields.io/badge/-MQTT-000?&logo=eclipse-mosquitto&logoColor=white)
+![Zigbee](https://img.shields.io/badge/-Zigbee-000?&logo=zigbee&logoColor=white)
+![LPWAN](https://img.shields.io/badge/-LPWAN-000?&logoColor=white)
+![LoRa](https://img.shields.io/badge/-LoRa-000?&logo=semtech&logoColor=white)
+![REST](https://img.shields.io/badge/-REST-000?&logo=fastapi&logoColor=white)
+![Wireless LAN](https://img.shields.io/badge/-Wireless%20LAN-000?&logo=wifi&logoColor=white)
+![RTOS](https://img.shields.io/badge/-RTOS-000?&logoColor=white)
 ![Linux](https://img.shields.io/badge/-Linux-000?&logo=Linux)
-![Node.js](https://img.shields.io/badge/-Node.js-000?&logo=node.js)
-![PyTorch](https://img.shields.io/badge/-PyTorch-000?&logo=PyTorch)
-![React](https://img.shields.io/badge/-React-000?&logo=React)
-![Redis](https://img.shields.io/badge/-Redis-000?&logo=Redis)
-![Spring](https://img.shields.io/badge/-Spring-000?&logo=Spring)
-![TensorFlow](https://img.shields.io/badge/-TensorFlow-000?&logo=TensorFlow)
+
 
 ### Full Stack Projects
 
