@@ -65,9 +65,11 @@ LPWAN, LoRa, REST, Wireless LAN, RTOSOperating
 
 ### Operating Systems:
 
-![FreeRTOS](https://img.shields.io/badge/-FreeRTOS-000?&logo=freertos&logoColor=white)
+![FreeRTOS](https://img.shields.io/badge/-FreeRTOS-000?&logoColor=white)
 ![Linux](https://img.shields.io/badge/-Linux-000?&logo=linux&logoColor=white)
-![Windows](https://img.shields.io/badge/-Windows-000?&logo=windows&logoColor=white)
+![Windows](https://img.shields.io/badge/-Windows-000?&logo=microsoft&logoColor=white)
+![Windows](https://img.shields.io/badge/-Windows-000?&logo=windows11&logoColor=white)
+
 
 
 ### Projects
