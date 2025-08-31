@@ -10,7 +10,7 @@
 
 ---
 
-## 📄 [Projects](#bottom)
+[Projects](#bottom)
 
 ---
 
