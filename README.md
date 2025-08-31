@@ -11,7 +11,7 @@
 ---
 
 ## 📄 Projects
-[Go to Projects](#pinned-repositories)
+[Go to Pinned Repositories](#pinned-repositories)
 
 ---
 
