@@ -7,8 +7,7 @@
 ---
 
 ## 📄 Resume
-[📥 Download My Resume](https://github.com/niikhilkavate/niikhilkavate/blob/main/NikhilResume.pdf)
-//*(Or link to Google Drive / portfolio site)*  
+[📥 Download My Resume](https://github.com/niikhilkavate/niikhilkavate/raw/main/NikhilResume.pdf)  
 
 ---
 
