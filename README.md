@@ -2,13 +2,13 @@
 
 💻 **Embedded Systems Engineer | IoT Developer | PLC Programmer**  
 🎓 PG-DESD (CDAC) | B.Sc. & M.Sc. in Electronics  
-📍 Based in India | 🌍 Open to relocation  
+📍 India | 🌍 Open to relocation  
 
 ---
 
 ## 📄 Resume
-[📥 Download My Resume](./resume.pdf)  
-*(Or link to Google Drive / portfolio site)*  
+[📥 Download My Resume](https://github.com/niikhilkavate/niikhilkavate/blob/main/NikhilResume.pdf)
+//*(Or link to Google Drive / portfolio site)*  
 
 ---
 
