@@ -12,10 +12,13 @@
 ---
 
 ## 🚀 Skills
-- **Programming:** C, C++, Embedded C, Python  
-- **Embedded Systems:** STM32, ESP32/8266, ARM Cortex-M, CAN Protocol, IoT  
-- **Tools:** Git, Keil, STM32CubeIDE, Proteus, MATLAB  
-- **Other:** PLC Programming, Device Configuration  
+- **Programming:** C, C++, Embedded C, Python, Bash, Assembly, Ladder Logic
+- **Embedded Systems:** STM32, ESP32/8266, ARM Cortex-M, CAN Protocol, IoT, PIC Microcontroller
+- **Tools:** STM32CubeIDE, Proteus, Arduino IDE, Tia Portal
+- **Other:** PLC Programming, Device Configuration, PCB
+- **Technologies:** CAN, I2C, SPI, UART, CoAP, MQTT, Zigbee,
+LPWAN, LoRa, REST, Wireless LAN, RTOSOperating
+- **Operating System:** FreeRTOS, Linux, Windows
 
 ---
 
@@ -28,6 +31,6 @@
 ---
 
 ## 🌐 Connect with Me
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/yourprofile)  
-[![Email](https://img.shields.io/badge/Email-red?logo=gmail&logoColor=white)](mailto:your@email.com)  
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?logo=linkedin&logoColor=white)]([https://www.linkedin.com/in/yourprofile](https://www.linkedin.com/in/nikhil-kavate-7b7bb3263/))  
+[![Email](https://img.shields.io/badge/Email-red?logo=gmail&logoColor=white)](mailto:nikhilkavate@gmail.com)  
 [![GitHub](https://img.shields.io/badge/GitHub-black?logo=github&logoColor=white)](https://github.com/yourusername)
