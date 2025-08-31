@@ -71,12 +71,22 @@ LPWAN, LoRa, REST, Wireless LAN, RTOSOperating
 
 ### Projects
 
-[![](https://img.shields.io/badge/-🩸%20Heartbleed-000)](https://github.com/adamalston/Heartbleed)
-[![](https://img.shields.io/badge/-🌊%20SYN%20Flood-000)](https://github.com/adamalston/SYN-Flood)
-[![](https://img.shields.io/badge/-🗂%20Packet%20Sniffing%20%26%20Spoofing-000)](https://github.com/adamalston/Packet-Sniffing-and-Spoofing)
-[![](https://img.shields.io/badge/-💉%20SQL%20Injection-000)](https://github.com/adamalston/SQL-Injection)
-[![](https://img.shields.io/badge/-🛡%20Spectre%20%26%20Meltdown-000)](https://github.com/adamalston/Meltdown-Spectre)
-[![](https://img.shields.io/badge/-🌐%20Network%20Tools-000)](https://github.com/adamalston/Network-Tools)
+### 🔹 B.Sc. Projects
+- **[Counter Circuit](https://github.com/niikhilkavate/BSC-Electronics-Mini-Project)**  
+  ![CD4026](https://img.shields.io/badge/CD4026-000?&logoColor=white) ![555 Timer](https://img.shields.io/badge/555%20Timer-000?&logoColor=white) ![IC](https://img.shields.io/badge/IC-000?&logo=electronics&logoColor=white)  
+  Developed a 7-segment display counter using CD4026 and 555 Timer, with an RC debounce circuit for accurate pulse counting.
+
+- **[Green House Control System](https://github.com/niikhilkavate/BSC-Electronics-Project)**  
+  ![Microchip](https://img.shields.io/badge/Microchip-000?&logo=microchip&logoColor=white) ![IoT](https://img.shields.io/badge/IoT-000?&logo=internet-of-things&logoColor=white)  
+  PIC microcontroller-based greenhouse control system with automatic irrigation.
+
+### 🔹 M.Sc. Project
+- **[Suryasankalp](https://github.com/niikhilkavate/MSC-Electronics-Project)**  
+  ![Arduino](https://img.shields.io/badge/Arduino-000?&logo=arduino&logoColor=white) ![Solar](https://img.shields.io/badge/Solar-000?&logoColor=white) ![Home Automation](https://img.shields.io/badge/Home%20Automation-000?&logoColor=white)  
+  Designed a solar power-based off-grid storage system for home automation.
+
+### 🔹 PG-Diploma Project (CDAC)
+- **[DriveSafe](https://gi)**
 
 
 
