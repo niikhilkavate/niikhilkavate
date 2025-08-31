@@ -1,4 +1,4 @@
-# 👋 Hi, I'm [Your Name]
+# 👋 Hi, I'm Nikhil Kavate
 
 💻 **Embedded Systems Engineer | IoT Developer | PLC Programmer**  
 🎓 PG-DESD (CDAC) | B.Sc. & M.Sc. in Electronics  
@@ -68,8 +68,6 @@ LPWAN, LoRa, REST, Wireless LAN, RTOSOperating
 ![FreeRTOS](https://img.shields.io/badge/-FreeRTOS-000?&logoColor=white)
 ![Linux](https://img.shields.io/badge/-Linux-000?&logo=linux&logoColor=white)
 ![Windows](https://img.shields.io/badge/-Windows-000?&logo=microsoft&logoColor=white)
-![Windows](https://img.shields.io/badge/-Windows-000?&logo=windows11&logoColor=white)
-
 
 
 ### Projects
