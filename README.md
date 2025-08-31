@@ -34,17 +34,6 @@ LPWAN, LoRa, REST, Wireless LAN, RTOSOperating
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?logo=linkedin&logoColor=white)]([https://www.linkedin.com/in/yourprofile](https://www.linkedin.com/in/nikhil-kavate-7b7bb3263/))  
 [![Email](https://img.shields.io/badge/Email-red?logo=gmail&logoColor=white)](mailto:nikhilkavate@gmail.com)  
 [![GitHub](https://img.shields.io/badge/GitHub-black?logo=github&logoColor=white)](https://github.com/yourusername)
-
-
-
-
-
-
-
-
-
-
-
 ![Banner](./nikhil.gif)
 
 ### Languages
@@ -74,17 +63,14 @@ LPWAN, LoRa, REST, Wireless LAN, RTOSOperating
 ![Linux](https://img.shields.io/badge/-Linux-000?&logo=Linux)
 
 
-### Full Stack Projects
+### Operating Systems:
 
-[![](https://img.shields.io/badge/-🧬%20My%20Website-000)](https://github.com/adamalston/v2)
-[![](https://img.shields.io/badge/-🦠%20COVID‑19%20Dashboard-000)](https://github.com/adamalston/COVID-19-Dashboard)
-[![](https://img.shields.io/badge/-📝%20Summarizer-000)](https://github.com/adamalston/Summarizer)
-[![](https://img.shields.io/badge/-🔬%20Overwatch-000)](https://github.com/adamalston/overwatch)
-[![](https://img.shields.io/badge/-🛰%20KubeSat-000)](https://github.com/adamalston/kubesat)
-[![](https://img.shields.io/badge/-🔊%20Voice%20Poker-000)](https://github.com/adamalston/Poker)
-[![](https://img.shields.io/badge/-🗺%20PokémonGo%20Map-000)](https://github.com/adamalston/PokemonGo-Map)
+![FreeRTOS](https://img.shields.io/badge/-FreeRTOS-000?&logo=freertos&logoColor=white)
+![Linux](https://img.shields.io/badge/-Linux-000?&logo=linux&logoColor=white)
+![Windows](https://img.shields.io/badge/-Windows-000?&logo=windows&logoColor=white)
 
-### Cybersecurity Projects
+
+### Projects
 
 [![](https://img.shields.io/badge/-🩸%20Heartbleed-000)](https://github.com/adamalston/Heartbleed)
 [![](https://img.shields.io/badge/-🌊%20SYN%20Flood-000)](https://github.com/adamalston/SYN-Flood)
