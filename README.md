@@ -47,8 +47,6 @@ LPWAN, LoRa, REST, Wireless LAN, RTOSOperating
 
 ![Banner](./nikhil.gif)
 
-[![](https://raw.githubusercontent.com/adamalston/adamalston/master/profile.gif)](https://www.adamalston.com/)<!-- If you want the template for my gif, email me! -->
-
 ### Languages
 
 ![Python](https://img.shields.io/badge/-Python-000?&logo=Python)
@@ -59,6 +57,18 @@ LPWAN, LoRa, REST, Wireless LAN, RTOSOperating
 ![C++](https://img.shields.io/badge/-C++-000?&logo=c%2b%2b&logoColor=00599C)
 ![SQL](https://img.shields.io/badge/-SQL-000?&logo=MySQL)
 ![Swift](https://img.shields.io/badge/-Swift-000?&logo=Swift)
+
+
+
+
+
+![C](https://img.shields.io/badge/-C-000?&logo=C)
+![C++](https://img.shields.io/badge/-C++-000?&logo=C%2B%2B&logoColor=00599C)
+![Python](https://img.shields.io/badge/-Python-000?&logo=Python)
+![Assembly](https://img.shields.io/badge/-Assembly-000?&logo=asm)
+![Bash](https://img.shields.io/badge/-Bash-000?&logo=gnu-bash&logoColor=white)
+![SQL](https://img.shields.io/badge/-SQL-000?&logo=MySQL&logoColor=white)
+
 
 ### Technologies
 
