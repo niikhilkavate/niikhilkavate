@@ -21,14 +21,6 @@ LPWAN, LoRa, REST, Wireless LAN, RTOSOperating
 
 ---
 
-## 📂 Projects
-🔹 **Drive Safe: Smart Connected Vehicle using CAN & IoT**  
-*STM32F407 + ESP8266, alcohol detection, CAN communication, IoT integration*  
-
-🔹 **[Project 2 Name]** – short description  
-
----
-
 ## 🌐 Connect with Me
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?logo=linkedin&logoColor=white)]([https://www.linkedin.com/in/yourprofile](https://www.linkedin.com/in/nikhil-kavate-7b7bb3263/))  
 [![Email](https://img.shields.io/badge/Email-red?logo=gmail&logoColor=white)](mailto:nikhilkavate@gmail.com)  
