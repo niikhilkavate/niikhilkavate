@@ -79,9 +79,7 @@ Smart vehicle safety system with alcohol detection, ignition control, and real-t
 
 ![Banner](./nikhil.gif)
 ## 🌐 Connect with Me
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?logo=linkedin&logoColor=white)]([https://www.linkedin.com/in/yourprofile](https://www.linkedin.com/in/nikhil-kavate-7b7bb3263/))  [![Email](https://img.shields.io/badge/Email-red?logo=gmail&logoColor=white)](mailto:nikhilkavate@gmail.com)  [![GitHub](https://img.shields.io/badge/GitHub-black?logo=github&logoColor=white)](https://github.com/yourusername)
-
-
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?logo=linkedin&logoColor=white)]([[https://niikhilkavate.github.io/]  [![Email](https://img.shields.io/badge/Email-red?logo=gmail&logoColor=white)](mailto:nikhilkavate@gmail.com)  [![GitHub](https://img.shields.io/badge/GitHub-black?logo=github&logoColor=white)]([https://niikhilkavate.github.io/]
 
 ## 📈 GitHub Stats
 <a href="https://niikhilkavate.github.io/">
