@@ -21,9 +21,6 @@ LPWAN, LoRa, REST, Wireless LAN, RTOSOperating
 
 ---
 
-## 🌐 Connect with Me
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?logo=linkedin&logoColor=white)]([https://www.linkedin.com/in/yourprofile](https://www.linkedin.com/in/nikhil-kavate-7b7bb3263/))  [![Email](https://img.shields.io/badge/Email-red?logo=gmail&logoColor=white)](mailto:nikhilkavate@gmail.com)  [![GitHub](https://img.shields.io/badge/GitHub-black?logo=github&logoColor=white)](https://github.com/yourusername)
-![Banner](./nikhil.gif)
 
 ### Languages
 
@@ -76,6 +73,9 @@ Designed a solar power-based off-grid storage system for home automation.
 ![STM32](https://img.shields.io/badge/STM32-000?&logo=stmicroelectronics&logoColor=white) ![IoT](https://img.shields.io/badge/IoT-000?&logo=internet-of-things&logoColor=white) ![CAN](https://img.shields.io/badge/CAN-000?&logoColor=white)  
 Smart vehicle safety system with alcohol detection, ignition control, and real-time speed tracking via IoT.
 
+![Banner](./nikhil.gif)
+## 🌐 Connect with Me
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?logo=linkedin&logoColor=white)]([https://www.linkedin.com/in/yourprofile](https://www.linkedin.com/in/nikhil-kavate-7b7bb3263/))  [![Email](https://img.shields.io/badge/Email-red?logo=gmail&logoColor=white)](mailto:nikhilkavate@gmail.com)  [![GitHub](https://img.shields.io/badge/GitHub-black?logo=github&logoColor=white)](https://github.com/yourusername)
 
 
 
