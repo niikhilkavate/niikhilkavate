@@ -22,9 +22,7 @@ LPWAN, LoRa, REST, Wireless LAN, RTOSOperating
 ---
 
 ## 🌐 Connect with Me
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?logo=linkedin&logoColor=white)]([https://www.linkedin.com/in/yourprofile](https://www.linkedin.com/in/nikhil-kavate-7b7bb3263/))  
-[![Email](https://img.shields.io/badge/Email-red?logo=gmail&logoColor=white)](mailto:nikhilkavate@gmail.com)  
-[![GitHub](https://img.shields.io/badge/GitHub-black?logo=github&logoColor=white)](https://github.com/yourusername)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?logo=linkedin&logoColor=white)]([https://www.linkedin.com/in/yourprofile](https://www.linkedin.com/in/nikhil-kavate-7b7bb3263/))  [![Email](https://img.shields.io/badge/Email-red?logo=gmail&logoColor=white)](mailto:nikhilkavate@gmail.com)  [![GitHub](https://img.shields.io/badge/GitHub-black?logo=github&logoColor=white)](https://github.com/yourusername)
 ![Banner](./nikhil.gif)
 
 ### Languages
@@ -67,7 +65,7 @@ LPWAN, LoRa, REST, Wireless LAN, RTOSOperating
 Developed a 7-segment display counter using CD4026 and 555 Timer, with an RC debounce circuit for accurate pulse counting.
 
 ### 🔹 B.Sc. Projects - [Green House Control System](https://github.com/niikhilkavate/BSC-Electronics-Project)
-![Microchip](https://img.shields.io/badge/Microchip-000?&logo=microchip&logoColor=white) ![IoT](https://img.shields.io/badge/IoT-000?&logo=internet-of-things&logoColor=white)  
+![Microchip](https://img.shields.io/badge/PIC-000?&logo=microchip&logoColor=white) ![IoT](https://img.shields.io/badge/IoT-000?&logo=internet-of-things&logoColor=white)  
 PIC microcontroller-based greenhouse control system with automatic irrigation.
 
 ### 🔹 M.Sc. Project - [Suryasankalp](https://github.com/niikhilkavate/MSC-Electronics-Project)
