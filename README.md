@@ -10,8 +10,7 @@
 
 ---
 
-## 📄 Projects
-[Go to Pinned Repositories](#pinned-repositories)
+## 📄 [Projects](#end)
 
 ---
 
