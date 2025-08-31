@@ -1,7 +1,7 @@
 # 👋 Hi, I'm Nikhil
 💻 **Embedded Systems Engineer | IoT Developer | PLC Programmer**  
 🎓 PG-DESD (CDAC) | B.Sc. & M.Sc. in Electronics  
-📍 India | 🌍 Open to relocation  
+📍 India
 
 ---
 
@@ -77,6 +77,34 @@ LPWAN, LoRa, REST, Wireless LAN, RTOSOperating
 [![](https://img.shields.io/badge/-💉%20SQL%20Injection-000)](https://github.com/adamalston/SQL-Injection)
 [![](https://img.shields.io/badge/-🛡%20Spectre%20%26%20Meltdown-000)](https://github.com/adamalston/Meltdown-Spectre)
 [![](https://img.shields.io/badge/-🌐%20Network%20Tools-000)](https://github.com/adamalston/Network-Tools)
+
+
+
+
+### 🔹 B.Sc. Mini Projects
+- **[Counter Circuit](https://github.com/niikhilkavate/BSC-Electronics-Mini-Project)**  
+  ![CD4026](https://img.shields.io/badge/CD4026-000?&logoColor=white) ![555 Timer](https://img.shields.io/badge/555%20Timer-000?&logoColor=white)  
+  Developed a 7-segment display counter using CD4026 and 555 Timer, with an RC debounce circuit for accurate pulse counting.
+
+### 🔹 B.Sc. Projects
+- **[Green House Control System](https://github.com/niikhilkavate/BSC-Electronics-Project)**  
+  ![PIC](https://img.shields.io/badge/PIC-Microcontroller-000?&logoColor=white) ![IoT](https://img.shields.io/badge/IoT-000?&logo=internet-of-things&logoColor=white)  
+  PIC microcontroller-based greenhouse control system with automatic irrigation.
+
+### 🔹 M.Sc. Project
+- **[Suryasankalp](https://github.com/niikhilkavate/MSC-Electronics-Project)**  
+  ![Solar](https://img.shields.io/badge/Solar-000?&logoColor=white) ![Home Automation](https://img.shields.io/badge/Home%20Automation-000?&logoColor=white)  
+  Designed a solar power-based off-grid storage system for home automation.
+
+### 🔹 PG-Diploma Project (CDAC)
+- **[DriveSafe](https://github.com/niikhilkavate/PGDiploma-Electronics-Project)**  
+  ![STM32](https://img.shields.io/badge/STM32-000?&logo=stmicroelectronics&logoColor=white) ![IoT](https://img.shields.io/badge/IoT-000?&logo=internet-of-things&logoColor=white) ![CAN](https://img.shields.io/badge/CAN-000?&logoColor=white)  
+  Smart vehicle safety system with alcohol detection, ignition control, and real-time speed tracking via IoT.
+
+
+
+
+
 
 <a href="https://www.adamalston.com/"><img height="137px" src="https://github-readme-stats.vercel.app/api?username=adamalston&hide_title=true&hide_border=true&show_icons=true&include_all_commits=true&count_private=true&line_height=21&text_color=000&icon_color=000&bg_color=0,ea6161,ffc64d,fffc4d,52fa5a&theme=graywhite" /><!-- wi*quL3fcV --><img height="137px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=adamalston&hide=html&hide_title=true&hide_border=true&layout=compact&langs_count=6&exclude_repo=comp426,Redventures-Movie-Quotes&text_color=000&icon_color=fff&bg_color=0,52fa5a,4dfcff,c64dff&theme=graywhite" /></a>
 
