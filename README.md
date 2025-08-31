@@ -10,6 +10,11 @@
 
 ---
 
+## 📄 Projects
+[Go to Projects](#pinned-repositories)
+
+---
+
 ## 🚀 Skills
 - **Programming:** C, C++, Embedded C, Python, Bash, Assembly, Ladder Logic
 - **Embedded Systems:** STM32, ESP32/8266, ARM Cortex-M, CAN Protocol, IoT, PIC Microcontroller
