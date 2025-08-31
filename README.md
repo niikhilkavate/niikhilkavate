@@ -71,45 +71,25 @@ LPWAN, LoRa, REST, Wireless LAN, RTOSOperating
 
 ### Projects
 
-### 🔹 B.Sc. Projects
-- **[Counter Circuit](https://github.com/niikhilkavate/BSC-Electronics-Mini-Project)**  
-  ![CD4026](https://img.shields.io/badge/CD4026-000?&logoColor=white) ![555 Timer](https://img.shields.io/badge/555%20Timer-000?&logoColor=white) ![IC](https://img.shields.io/badge/IC-000?&logo=electronics&logoColor=white)  
-  Developed a 7-segment display counter using CD4026 and 555 Timer, with an RC debounce circuit for accurate pulse counting.
+## 📂 Academic Projects
 
-- **[Green House Control System](https://github.com/niikhilkavate/BSC-Electronics-Project)**  
-  ![Microchip](https://img.shields.io/badge/Microchip-000?&logo=microchip&logoColor=white) ![IoT](https://img.shields.io/badge/IoT-000?&logo=internet-of-things&logoColor=white)  
-  PIC microcontroller-based greenhouse control system with automatic irrigation.
+### 🔹 B.Sc. Mini Projects - [Counter Circuit](https://github.com/niikhilkavate/BSC-Electronics-Mini-Project)
+![CD4026](https://img.shields.io/badge/CD4026-000?&logoColor=white) ![555 Timer](https://img.shields.io/badge/555%20Timer-000?&logoColor=white) ![IC](https://img.shields.io/badge/IC-000?&logo=electronics&logoColor=white)  
+Developed a 7-segment display counter using CD4026 and 555 Timer, with an RC debounce circuit for accurate pulse counting.
 
-### 🔹 M.Sc. Project
-- **[Suryasankalp](https://github.com/niikhilkavate/MSC-Electronics-Project)**  
-  ![Arduino](https://img.shields.io/badge/Arduino-000?&logo=arduino&logoColor=white) ![Solar](https://img.shields.io/badge/Solar-000?&logoColor=white) ![Home Automation](https://img.shields.io/badge/Home%20Automation-000?&logoColor=white)  
-  Designed a solar power-based off-grid storage system for home automation.
+### 🔹 B.Sc. Projects - [Green House Control System](https://github.com/niikhilkavate/BSC-Electronics-Project)
+![Microchip](https://img.shields.io/badge/Microchip-000?&logo=microchip&logoColor=white) ![IoT](https://img.shields.io/badge/IoT-000?&logo=internet-of-things&logoColor=white)  
+PIC microcontroller-based greenhouse control system with automatic irrigation.
 
-### 🔹 PG-Diploma Project (CDAC)
-- **[DriveSafe](https://gi)**
+### 🔹 M.Sc. Project - [Suryasankalp](https://github.com/niikhilkavate/MSC-Electronics-Project)
+![Arduino](https://img.shields.io/badge/Arduino-000?&logo=arduino&logoColor=white) ![Solar](https://img.shields.io/badge/Solar-000?&logoColor=white) ![Home Automation](https://img.shields.io/badge/Home%20Automation-000?&logoColor=white)  
+Designed a solar power-based off-grid storage system for home automation.
+
+### 🔹 PG-Diploma Project (CDAC) - [DriveSafe](https://github.com/niikhilkavate/PGDiploma-Electronics-Project)
+![STM32](https://img.shields.io/badge/STM32-000?&logo=stmicroelectronics&logoColor=white) ![IoT](https://img.shields.io/badge/IoT-000?&logo=internet-of-things&logoColor=white) ![CAN](https://img.shields.io/badge/CAN-000?&logoColor=white)  
+Smart vehicle safety system with alcohol detection, ignition control, and real-time speed tracking via IoT.
 
 
-
-
-### 🔹 B.Sc. Mini Projects
-- **[Counter Circuit](https://github.com/niikhilkavate/BSC-Electronics-Mini-Project)**  
-  ![CD4026](https://img.shields.io/badge/CD4026-000?&logoColor=white) ![555 Timer](https://img.shields.io/badge/555%20Timer-000?&logoColor=white)  
-  Developed a 7-segment display counter using CD4026 and 555 Timer, with an RC debounce circuit for accurate pulse counting.
-
-### 🔹 B.Sc. Projects
-- **[Green House Control System](https://github.com/niikhilkavate/BSC-Electronics-Project)**  
-  ![PIC](https://img.shields.io/badge/PIC-Microcontroller-000?&logoColor=white) ![IoT](https://img.shields.io/badge/IoT-000?&logo=internet-of-things&logoColor=white)  
-  PIC microcontroller-based greenhouse control system with automatic irrigation.
-
-### 🔹 M.Sc. Project
-- **[Suryasankalp](https://github.com/niikhilkavate/MSC-Electronics-Project)**  
-  ![Solar](https://img.shields.io/badge/Solar-000?&logoColor=white) ![Home Automation](https://img.shields.io/badge/Home%20Automation-000?&logoColor=white)  
-  Designed a solar power-based off-grid storage system for home automation.
-
-### 🔹 PG-Diploma Project (CDAC)
-- **[DriveSafe](https://github.com/niikhilkavate/PGDiploma-Electronics-Project)**  
-  ![STM32](https://img.shields.io/badge/STM32-000?&logo=stmicroelectronics&logoColor=white) ![IoT](https://img.shields.io/badge/IoT-000?&logo=internet-of-things&logoColor=white) ![CAN](https://img.shields.io/badge/CAN-000?&logoColor=white)  
-  Smart vehicle safety system with alcohol detection, ignition control, and real-time speed tracking via IoT.
 
 
 
