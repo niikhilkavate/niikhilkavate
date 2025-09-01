@@ -1,133 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>KK | Embedded Engineer</title>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
   <style>
+    :root {
+      --primary: #ff6f61;
+      --dark: #0f2027;
+      --light: #f5f5f5;
+    }
+
+    * {
+      margin: 0; padding: 0;
+      box-sizing: border-box;
+    }
+
     body {
       font-family: 'Roboto', sans-serif;
-      margin: 0;
-      padding: 0;
-      background: #f5f5f5;
+      background: var(--light);
       color: #222;
+      line-height: 1.6;
+      scroll-behavior: smooth;
     }
+
     a { text-decoration: none; color: inherit; }
-    section { padding: 60px 20px; max-width: 1000px; margin: auto; }
-    h1, h2, h3 { margin: 10px 0; }
-    #hero { 
-      background: linear-gradient(135deg, #0f2027, #2c5364);
-      color: white; text-align: center; padding: 100px 20px;
+
+    /* Navbar */
+    nav {
+      position: sticky;
+      top: 0; left: 0;
+      background: white;
+      display: flex; justify-content: center; gap: 30px;
+      padding: 15px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      z-index: 1000;
     }
-    #hero h1 { font-size: 48px; margin-bottom: 10px; }
+    nav a {
+      font-weight: bold;
+      transition: 0.3s;
+    }
+    nav a:hover {
+      color: var(--primary);
+    }
+
+    section {
+      padding: 80px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+    h1,h2,h3 {
+      margin-bottom: 20px;
+    }
+
+    /* Hero */
+    #hero {
+      background: linear-gradient(135deg, #0f2027, #2c5364);
+      color: white; text-align: center;
+      padding: 120px 20px;
+      animation: fadeIn 1.5s ease-in-out;
+    }
+    #hero h1 { font-size: 56px; }
     #hero h3 { font-size: 24px; margin-bottom: 20px; }
     .btn {
-      background: #ff6f61; color: white; padding: 12px 24px; border-radius: 6px; font-weight: bold;
+      background: var(--primary); color: white;
+      padding: 12px 28px; border-radius: 30px;
+      font-weight: bold;
       display: inline-block;
       transition: 0.3s;
     }
-    .btn:hover { background: #ff3b2f; }
-    .project, .skill { margin-bottom: 20px; }
-    img.badge { margin-right: 5px; margin-top: 5px; }
-    #projects .project a { font-weight: bold; font-size: 20px; color: #ff6f61; }
-    #contact p { font-size: 18px; }
-    @media(max-width:600px){
-      #hero h1 { font-size: 36px; }
-      #hero h3 { font-size: 20px; }
+    .btn:hover { background: #e13c2e; transform: scale(1.05); }
+
+    /* About */
+    #about div {
+      max-width: 800px;
+      margin: auto;
+      text-align: justify;
+      font-size: 18px;
+      animation: slideUp 1.2s ease-in-out;
     }
-  </style>
-</head>
-<body>
 
-  <!-- Hero Section -->
-  <section id="hero">
-    <h1>KK</h1>
-    <h3>Embedded Engineer | IoT Developer</h3>
-    <a href="vkf.pdf" class="btn" download>Download Resume</a>
-  </section>
+    /* Projects */
+    #projects .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+    }
+    .project {
+      background: white;
+      border-radius: 12px;
+      padding: 20px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+      transition: 0.3s;
+    }
+    .project:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+    }
+    .project h3 a {
+      color: var(--primary);
+    }
+    .badges {
+      margin: 10px 0;
+    }
 
-  <!-- About Me -->
-  <section id="about">
-    <h2>About Me</h2>
-<div align="justify">
-  🎓 I pursued an MSc in Electronics Science from Modern College, Pune.  
-  👨🏻‍💻 To further enhance my technical expertise, I pursued a PG Diploma in Embedded System Design from Sunbeam Pune Institute, under CDAC.  
-  During this course, I gained hands-on experience in C, C++, operating systems, data structures and algorithms, microcontroller programming, Linux device drivers, real-time operating systems, and IoT.  
+    /* Skills */
+    #skills {
+      text-align: center;
+    }
+    #skills .badges {
+      display: flex; flex-wrap: wrap; justify-content: center; gap: 10px;
+    }
 
-  I am seeking a challenging position where I can apply my technical knowledge, problem-solving skills, and passion for embedded systems to contribute to impactful and innovative projects.
-</div>
-  </section>
+    /* GitHub stats */
+    #github-stats img {
+      max-width: 48%;
+      margin: 10px;
+      border-radius: 12px;
+    }
 
-  <!-- Projects -->
-  <section id="projects">
-    <h2>Projects</h2>
-
-    <div class="project">
-      <h3><a href="https://github.com/niikhilkavate/BSC-Electronics-Mini-Project">Counter Circuit</a></h3>
-      <img class="badge" src="https://img.shields.io/badge/CD4026-000?&logoColor=white" />
-      <img class="badge" src="https://img.shields.io/badge/555%20Timer-000?&logoColor=white" />
-      <img class="badge" src="https://img.shields.io/badge/IC-000?&logo=electronics&logoColor=white" />
-      <p>7-segment display counter using CD4026 and 555 Timer with RC debounce circuit.</p>
-    </div>
-
-    <div class="project">
-      <h3><a href="https://github.com/niikhilkavate/BSC-Electronics-Project">Green House Control System</a></h3>
-      <img class="badge" src="https://img.shields.io/badge/Microchip-000?&logo=microchip&logoColor=white" />
-      <img class="badge" src="https://img.shields.io/badge/IoT-000?&logo=internet-of-things&logoColor=white" />
-      <p>PIC microcontroller-based greenhouse control system with automatic irrigation.</p>
-    </div>
-
-    <div class="project">
-      <h3><a href="https://github.com/niikhilkavate/MSC-Electronics-Project">Suryasankalp</a></h3>
-      <img class="badge" src="https://img.shields.io/badge/Arduino-000?&logo=arduino&logoColor=white" />
-      <img class="badge" src="https://img.shields.io/badge/Solar-000?&logoColor=white" />
-      <img class="badge" src="https://img.shields.io/badge/Home Automation-000?&logoColor=white" />
-      <p>Developed an off-grid solar power storage system for home automation.</p>
-    </div>
-
-    <div class="project">
-      <h3><a href="https://github.com/niikhilkavate/PGDiploma-Electronics-Project">DriveSafe</a></h3>
-      <img class="badge" src="https://img.shields.io/badge/STM32-000?&logo=stmicroelectronics&logoColor=white" />
-      <img class="badge" src="https://img.shields.io/badge/IoT-000?&logo=internet-of-things&logoColor=white" />
-      <img class="badge" src="https://img.shields.io/badge/CAN-000?&logoColor=white" />
-      <p>Smart vehicle safety system with alcohol detection, ignition control, and real-time speed tracking via IoT.</p>
-    </div>
-
-  </section>
-
-  <!-- Skills -->
-  <section id="skills">
-    <h2>Skills</h2>
-    <img class="badge" src="https://img.shields.io/badge/C-000?&logo=c&logoColor=white" />
-    <img class="badge" src="https://img.shields.io/badge/C++-000?&logo=c%2B%2B&logoColor=white" />
-    <img class="badge" src="https://img.shields.io/badge/Python-000?&logo=Python&logoColor=white" />
-    <img class="badge" src="https://img.shields.io/badge/Assembly-000?&logoColor=white" />
-    <img class="badge" src="https://img.shields.io/badge/Bash-000?&logo=gnu-bash&logoColor=white" />
-    <img class="badge" src="https://img.shields.io/badge/SQL-000?&logo=mysql&logoColor=white" />
-    <img class="badge" src="https://img.shields.io/badge/FreeRTOS-000?&logo=freertos&logoColor=white" />
-    <img class="badge" src="https://img.shields.io/badge/Linux-000?&logo=linux&logoColor=white" />
-    <img class="badge" src="https://img.shields.io/badge/Windows-000?&logo=windows&logoColor=white" />
-  </section>
-
-  <!-- GitHub Stats -->
-  <section id="github-stats">
-    <h2>GitHub Stats</h2>
-    <img src="https://github-readme-stats.vercel.app/api?username=niikhilkavate&show_icons=true&theme=radical" />
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=niikhilkavate&layout=compact&theme=radical" />
-  </section>
-
-  <!-- Resume -->
-  <section id="resume">
-    <h2>Resume</h2>
-    <a href="vkf.pdf" class="btn" download>Download Resume</a>
-  </section>
-
-  <!-- Contact -->
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>Email: <a href="mailto:nsdms@gmail.moc">nsdms@gmail.moc</a></p>
-  </section>
-
-</body>
-</html>
+    /* Contact */
+    #c
