@@ -82,14 +82,16 @@ Smart vehicle safety system with alcohol detection, ignition control, and real-t
 
 ## 🌐 Connect with Me
  <img src="./nikhil.gif" alt="Banner" />
- 
+ <a href="https://niikhilkavate.github.io/niikhilkavate/" target="_blank">
+  <img src="./nikhil.gif" alt="Banner" />
+</a>
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nikhil-kavate-7b7bb3263/)
 [![Email](https://img.shields.io/badge/-Email-red?logo=gmail&logoColor=white)](mailto:nikhilkavate@gmail.com)
 [![GitHub](https://img.shields.io/badge/-GitHub-black?logo=github&logoColor=white)](https://niikhilkavate.github.io/)
 <!-- ![Banner](./nikhil.gif) -->
 
 ## 📈 GitHub Stats
-<a href="https://niikhilkavate.github.io/">
+<a href="https://niikhilkavate.github.io/niikhilkavate/">
   -<img height="137px" src="https://github-readme-stats.vercel.app/api?username=niikhilkavate&hide_title=true&hide_border=true&show_icons=true&include_all_commits=true&count_private=true&line_height=21&text_color=000&icon_color=000&bg_color=0,ea6161,ffc64d,fffc4d,52fa5a&theme=graywhite" />
   <img height="137px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=niikhilkavate&hide=html&hide_title=true&hide_border=true&layout=compact&langs_count=6&text_color=000&icon_color=fff&bg_color=0,52fa5a,4dfcff,c64dff&theme=graywhite" />
 </a>
