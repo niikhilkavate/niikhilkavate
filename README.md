@@ -81,7 +81,6 @@ Smart vehicle safety system with alcohol detection, ignition control, and real-t
 
 
 ## 🌐 Connect with Me
- <img src="./nikhil.gif" alt="Banner" />
  <a href="https://niikhilkavate.github.io/niikhilkavate/" target="_blank">
   <img src="./nikhil.gif" alt="Banner" />
 </a>
