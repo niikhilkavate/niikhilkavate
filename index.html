@@ -8,129 +8,123 @@
   <style>
     body {
       font-family: 'Roboto', sans-serif;
-      margin: 0;
+      margin: 0; padding: 0;
       background: #f5f5f5;
       color: #222;
     }
-    nav {
-      position: sticky;
-      top: 0;
-      background: white;
-      display: flex;
-      justify-content: center;
-      gap: 30px;
-      padding: 15px;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-      z-index: 1000;
-    }
-    nav a { font-weight: bold; text-decoration: none; color: #222; }
-    nav a:hover { color: #ff6f61; }
+    a { text-decoration: none; color: inherit; }
+    section { padding: 60px 20px; max-width: 1000px; margin: auto; }
+    h1, h2, h3 { margin: 10px 0; }
 
-    section {
-      padding: 80px 20px;
-      max-width: 1100px;
-      margin: auto;
-    }
-    h1,h2 { margin-bottom: 20px; }
-
+    /* Hero Section */
     #hero {
       background: linear-gradient(135deg, #0f2027, #2c5364);
       color: white;
       text-align: center;
-      padding: 120px 20px;
+      padding: 100px 20px;
     }
-    #hero h1 { font-size: 48px; }
+    #hero h1 { font-size: 48px; margin-bottom: 10px; }
+    #hero h3 { font-size: 24px; margin-bottom: 20px; }
     .btn {
       background: #ff6f61; color: white;
-      padding: 12px 28px;
-      border-radius: 30px;
+      padding: 12px 24px;
+      border-radius: 6px;
       font-weight: bold;
       display: inline-block;
-      margin-top: 20px;
-    }
-    .btn:hover { background: #e13c2e; }
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-      gap: 20px;
-    }
-    .project {
-      background: white;
-      border-radius: 12px;
-      padding: 20px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
       transition: 0.3s;
     }
-    .project:hover { transform: translateY(-5px); }
-    #skills .badges {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 10px;
+    .btn:hover { background: #ff3b2f; }
+
+    /* Projects */
+    .project, .skill { margin-bottom: 20px; }
+    img.badge { margin-right: 5px; margin-top: 5px; }
+    #projects .project a { font-weight: bold; font-size: 20px; color: #ff6f61; }
+
+    /* Contact */
+    #contact p { font-size: 18px; }
+
+    /* Responsive */
+    @media(max-width:600px){
+      #hero h1 { font-size: 36px; }
+      #hero h3 { font-size: 20px; }
     }
   </style>
 </head>
 <body>
 
-  <!-- Navbar -->
-  <nav>
-    <a href="#hero">Home</a>
-    <a href="#about">About</a>
-    <a href="#projects">Projects</a>
-    <a href="#skills">Skills</a>
-    <a href="#contact">Contact</a>
-  </nav>
-
-  <!-- Hero -->
+  <!-- Hero Section -->
   <section id="hero">
     <h1>KK</h1>
     <h3>Embedded Engineer | IoT Developer</h3>
     <a href="vkf.pdf" class="btn" download>Download Resume</a>
   </section>
 
-  <!-- About -->
+  <!-- About Me -->
   <section id="about">
     <h2>About Me</h2>
-    <p>
-      MSc in Electronics Science (Modern College, Pune) and PG Diploma in Embedded System Design (CDAC Sunbeam).
-      Skilled in C, C++, RTOS, Linux, IoT, and microcontroller programming. Passionate about innovative embedded projects.
-    </p>
+    <div align="justify">
+      🎓 MSc in Electronics Science, Modern College Pune.<br>
+      👨🏻‍💻 PG Diploma in Embedded System Design, Sunbeam Pune (CDAC).<br>
+      Experienced in C, C++, OS, Data Structures, Microcontroller Programming, Linux Drivers, RTOS, IoT.<br>
+      Passionate about applying embedded skills to real-world projects.
+    </div>
   </section>
 
   <!-- Projects -->
   <section id="projects">
     <h2>Projects</h2>
-    <div class="grid">
-      <div class="project">
-        <h3>Counter Circuit</h3>
-        <p>7-segment display counter using CD4026 and 555 Timer with debounce.</p>
-      </div>
-      <div class="project">
-        <h3>Greenhouse Control</h3>
-        <p>PIC-based system with automatic irrigation & IoT integration.</p>
-      </div>
-      <div class="project">
-        <h3>Suryasankalp</h3>
-        <p>Off-grid solar storage system for home automation.</p>
-      </div>
-      <div class="project">
-        <h3>DriveSafe</h3>
-        <p>Vehicle safety system with alcohol detection & IoT speed tracking.</p>
-      </div>
+
+    <div class="project">
+      <h3><a href="https://github.com/niikhilkavate/BSC-Electronics-Mini-Project">Counter Circuit</a></h3>
+      <img class="badge" src="https://img.shields.io/badge/CD4026-000" />
+      <img class="badge" src="https://img.shields.io/badge/555%20Timer-000" />
+      <p>7-segment counter using CD4026 + 555 Timer with debounce circuit.</p>
+    </div>
+
+    <div class="project">
+      <h3><a href="https://github.com/niikhilkavate/BSC-Electronics-Project">Greenhouse Control System</a></h3>
+      <img class="badge" src="https://img.shields.io/badge/Microchip-000" />
+      <img class="badge" src="https://img.shields.io/badge/IoT-000" />
+      <p>PIC microcontroller-based greenhouse system with automatic irrigation.</p>
+    </div>
+
+    <div class="project">
+      <h3><a href="https://github.com/niikhilkavate/MSC-Electronics-Project">Suryasankalp</a></h3>
+      <img class="badge" src="https://img.shields.io/badge/Arduino-000" />
+      <img class="badge" src="https://img.shields.io/badge/Solar-000" />
+      <p>Off-grid solar storage + home automation.</p>
+    </div>
+
+    <div class="project">
+      <h3><a href="https://github.com/niikhilkavate/PGDiploma-Electronics-Project">DriveSafe</a></h3>
+      <img class="badge" src="https://img.shields.io/badge/STM32-000" />
+      <img class="badge" src="https://img.shields.io/badge/CAN-000" />
+      <p>Vehicle safety with alcohol detection, ignition control, IoT speed tracking.</p>
     </div>
   </section>
 
   <!-- Skills -->
   <section id="skills">
     <h2>Skills</h2>
-    <div class="badges">
-      <span>⚡ C</span>
-      <span>⚡ C++</span>
-      <span>⚡ Python</span>
-      <span>⚡ FreeRTOS</span>
-      <span>⚡ Linux</span>
-      <span>⚡ SQL</span>
-    </div>
+    <img class="badge" src="https://img.shields.io/badge/C-000?logo=c" />
+    <img class="badge" src="https://img.shields.io/badge/C++-000?logo=c%2B%2B" />
+    <img class="badge" src="https://img.shields.io/badge/Python-000?logo=python" />
+    <img class="badge" src="https://img.shields.io/badge/FreeRTOS-000?logo=freertos" />
+    <img class="badge" src="https://img.shields.io/badge/Linux-000?logo=linux" />
+    <img class="badge" src="https://img.shields.io/badge/SQL-000?logo=mysql" />
+  </section>
+
+  <!-- GitHub Stats -->
+  <section id="github-stats">
+    <h2>GitHub Stats</h2>
+    <img src="https://github-readme-stats.vercel.app/api?username=niikhilkavate&show_icons=true&theme=radical" />
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=niikhilkavate&layout=compact&theme=radical" />
+  </section>
+
+  <!-- Resume -->
+  <section id="resume">
+    <h2>Resume</h2>
+    <a href="vkf.pdf" class="btn" download>Download Resume</a>
   </section>
 
   <!-- Contact -->
@@ -141,3 +135,4 @@
 
 </body>
 </html>
+ass="btn" download>Download Resume</a> </section> <!-- Contact --> <section id="contact"> <h2>Contact</h2> <p>Email: <a href="mailto:nsdms@gmail.moc">nsdms@gmail.moc</a></p> </section> </body> </html>
