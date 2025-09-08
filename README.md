@@ -73,7 +73,7 @@ PIC microcontroller-based greenhouse control system with automatic irrigation.
 ![Arduino](https://img.shields.io/badge/Arduino-000?&logo=arduino&logoColor=white) ![Solar](https://img.shields.io/badge/Solar-000?&logoColor=white) ![Home Automation](https://img.shields.io/badge/Home%20Automation-000?&logoColor=white)  
 Designed a solar power-based off-grid storage system for home automation.
 
-### 🔹 PG-Diploma Project (CDAC) - [DriveSafe](https://github.com/niikhilkavate/PGDiploma-Electronics-Project)
+### 🔹 PG-Diploma Project (CDAC) - [DriveSafe](https://github.com/niikhilkavate/PG_Diploma-Electronics-Project)
 ![STM32](https://img.shields.io/badge/STM32-000?&logo=stmicroelectronics&logoColor=white) ![IoT](https://img.shields.io/badge/IoT-000?&logo=internet-of-things&logoColor=white) ![CAN](https://img.shields.io/badge/CAN-000?&logoColor=white)  
 Smart vehicle safety system with alcohol detection, ignition control, and real-time speed tracking via IoT.
 <a href="https://niikhilkavate.github.io/" target="_blank">
