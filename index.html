@@ -10,10 +10,23 @@
       font-family: Arial, sans-serif;
       line-height: 1.6;
       margin: 40px;
-      color: #222;
+      color: #fff; /* text white for contrast */
+      min-height: 200vh; /* so scrolling works */
+      
+      /* Gradient background */
+      background: linear-gradient(270deg, #1e3c72, #2a5298, #ff6a00, #ee0979);
+      background-size: 800% 800%;
+      animation: gradientScroll 30s ease infinite;
     }
+
+    @keyframes gradientScroll {
+      0%   { background-position: 0% 50%; }
+      50%  { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+
     h2 {
-      border-bottom: 2px solid #333;
+      border-bottom: 2px solid #fff;
       padding-bottom: 4px;
       margin-top: 30px;
       text-transform: uppercase;
@@ -38,7 +51,7 @@
     }
     .contact i {
       margin-right: 8px;
-      color: #444;
+      color: #fff;
     }
     .section {
       margin-top: 20px;
@@ -52,7 +65,7 @@
       font-weight: bold;
     }
     .entry a {
-      color: #0066cc;
+      color: #ffeb3b;
       text-decoration: none;
     }
     .skills-list {
@@ -86,7 +99,7 @@
   <!-- Summary -->
   <h2>Summary</h2>
   <p>
-    🎓 I pursued an MSc in Electronics Science from Modern College, Pune.<p>
+    🎓 I pursued an MSc in Electronics Science from Modern College, Pune.<br>
     👨🏻‍💻 To further enhance my technical expertise, I pursued a PG Diploma in Embedded System Design from Sunbeam Pune Institute, under CDAC. During this course, I gained hands-on experience in C, C++, operating systems, data structures and algorithms, microcontroller programming, Linux device drivers, real-time operating systems, and IoT, seeking a challenging position where I can apply my technical knowledge, problem-solving skills, and passion for embedded systems to contribute to impactful and innovative projects.
   </p>
 
