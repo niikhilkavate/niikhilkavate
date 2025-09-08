@@ -8,18 +8,15 @@
   <style>
     body {
       font-family: Arial, sans-serif;
-      line-height: 1.4; 
+      line-height: 1.4;
       margin: 40px;
       color: #fff;
       min-height: 200vh; 
-      
-      /* Gradient background */
       background: linear-gradient(270deg, #1e3c72, #2a5298, #ff6a00, #ee0979);
       background-size: 800% 800%;
       background-attachment: fixed;
       background-position: 0% 50%;
       transition: background-position 0.1s linear;
-      font-size: 17px; /* increased by 3px */
     }
 
     h2 {
@@ -28,7 +25,7 @@
       margin-top: 30px;
       text-transform: uppercase;
       line-height: 1.2;
-      font-size: 22px; /* increased */
+      font-size: 22px; /* increased by 3pt */
     }
 
     .header {
@@ -46,13 +43,13 @@
     }
 
     .title {
-      font-size: 23px; 
+      font-size: 23px;
       margin-top: 5px;
       line-height: 1.2;
     }
 
     .contact {
-      font-size: 19px; 
+      font-size: 19px;
       line-height: 1.3;
     }
 
@@ -71,8 +68,9 @@
     }
 
     .entry {
-      margin-bottom: 10px; 
+      margin-bottom: 10px;
       line-height: 1.35; 
+      font-size: 17px; /* increased by 3pt */
     }
 
     .entry h3 {
@@ -93,18 +91,22 @@
       display: grid;
       grid-template-columns: 150px auto;
       row-gap: 4px; 
-      font-size: 17px; 
+      font-size: 17px;
     }
 
     ul {
       margin: 2px 0 0 20px;
       line-height: 1.3;
-      font-size: 17px; 
+      font-size: 17px;
     }
 
     p {
       margin: 0 0 4px 0; 
-      font-size: 17px; 
+    }
+
+    /* Add spacing after each project */
+    .project-entry {
+      margin-bottom: 25px;
     }
   </style>
   <script>
@@ -189,31 +191,26 @@
 
   <!-- Projects -->
   <h2>Projects</h2>
-
-  <div class="entry">
+  <div class="entry project-entry">
     <h3>Counter Circuit (BSc Mini Project)</h3>
     <a href="https://github.com/niikhilkavate/BSC-Electronics-Mini-Project.git" target="_blank">GitHub Repo</a>
     <p>Developed a 7-segment display counter using CD4026 and 555 Timer, with an RC debounce circuit for accurate pulse counting.</p>
   </div>
-  <br>
-  <div class="entry">
+  <div class="entry project-entry">
     <h3>Green House Control System (BSc Project)</h3>
     <a href="https://github.com/niikhilkavate/BSC-Electronics-Project.git" target="_blank">GitHub Repo</a>
     <p>PIC Microcontroller Based Green House Control Automatic irrigation system.</p>
   </div>
-  <br>
-  <div class="entry">
+  <div class="entry project-entry">
     <h3>Suryasankalp (MSc Project)</h3>
     <a href="https://github.com/niikhilkavate/MSC-Electronics-Project.git" target="_blank">GitHub Repo</a>
     <p>Designed a solar power-based off-grid storage system for home automation.</p>
   </div>
-  <br>
-  <div class="entry">
+  <div class="entry project-entry">
     <h3>DriveSafe (CDAC Project)</h3>
     <a href="https://github.com/niikhilkavate/PG_Diploma-Electronics-Project..git" target="_blank">GitHub Repo</a>
     <p>Developed a smart vehicle safety system with alcohol detection, ignition control, and real-time speed tracking via IoT.</p>
   </div>
-  <br>
 
   <!-- Education -->
   <h2>Education</h2>
@@ -238,10 +235,12 @@
   <!-- Certificates -->
   <h2>Certificates</h2>
   <div class="entry">
-    Jul 2023: National Apprenticeship Training Scheme, NATS – Ministry of Education (MoE), Government of India
+    Jul 2023: National Apprenticeship Training Scheme, NATS – 
+    <a href="https://nats.education.gov.in/about-us.php" target="_blank">Ministry of Education (MoE), Government of India</a>
   </div>
   <div class="entry">
-    Aug 2024: PG Diploma in Embedded Systems and Design (PG-DESD) – C-DAC
+    Aug 2024: PG Diploma in Embedded Systems and Design (PG-DESD) – 
+    <a href="https://cdac.in/index.aspx?id=about" target="_blank">C-DAC</a>
   </div>
 
   <!-- Languages -->
