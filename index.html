@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -36,6 +36,170 @@
     alert("📋 Email copied to clipboard!");
   });
 </script>
+
+</body>
+</html>
+ -->
+
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nikhil K. Kavate - Resume</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 40px;
+      color: #222;
+    }
+    h2 {
+      border-bottom: 2px solid #333;
+      padding-bottom: 4px;
+      margin-top: 30px;
+      text-transform: uppercase;
+    }
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: 20px;
+    }
+    .name {
+      font-size: 24px;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+    .title {
+      font-size: 18px;
+      margin-top: 5px;
+    }
+    .contact {
+      font-size: 14px;
+    }
+    .contact i {
+      margin-right: 8px;
+      color: #444;
+    }
+    .section {
+      margin-top: 20px;
+    }
+    .entry {
+      margin-bottom: 12px;
+    }
+    .entry h3 {
+      margin: 2px 0;
+      font-size: 16px;
+      font-weight: bold;
+    }
+    .entry a {
+      color: #0066cc;
+      text-decoration: none;
+    }
+    .skills-list {
+      display: grid;
+      grid-template-columns: 150px auto;
+      row-gap: 6px;
+      font-size: 14px;
+    }
+    ul {
+      margin: 4px 0 0 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <div class="header">
+    <div>
+      <div class="name">Nikhil K. Kavate</div>
+      <div class="title">Embedded Developer ~ Engineer</div>
+    </div>
+    <div class="contact">
+      <div><i class="fa fa-phone"></i> 88 8812 4704</div>
+      <div><i class="fa fa-map-marker-alt"></i> Pune, India</div>
+      <div><i class="fa fa-envelope"></i> <a href="mailto:nikhilkavate@gmail.com">nikhilkavate@gmail.com</a></div>
+      <div><i class="fab fa-github"></i> <a href="https://github.com/niikhilkavate">github.com/niikhilkavate</a></div>
+      <div><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/nikhil-kavate-7b7bb3263">linkedin.com/in/nikhil-kavate</a></div>
+    </div>
+  </div>
+
+  <!-- Summary -->
+  <h2>Summary</h2>
+  <p>
+    Embedded Systems Engineer with expertise in IoT and system-level development. Skilled in STM32, ESP32, ESP8266, CAN communication, and sensor integration. Passionate about kernel optimization, HPC, AI-powered applications, and renewable energy solutions. Committed to innovative problem solving and continuous learning.
+  </p>
+
+  <!-- Skills -->
+  <h2>Skills</h2>
+  <div class="skills-list">
+    <div><b>Languages:</b></div>
+    <div>C, C++, Python, Assembly, Bash, SQL</div>
+    <div><b>Operating Systems:</b></div>
+    <div>FreeRTOS, Linux, Windows</div>
+    <div><b>Technologies:</b></div>
+    <div>CAN, I2C, SPI, UART, CoAP, MQTT, Zigbee, LPWAN, LoRa, REST, Wireless LAN, RTOS</div>
+  </div>
+
+  <!-- Projects -->
+  <h2>Projects</h2>
+  <div class="entry">
+    <h3>Counter Circuit (BSc Mini Project)</h3>
+    <a href="https://github.com/niikhilkavate/BSC-Electronics-Mini-Project.git">GitHub Repo</a>
+    <p>Developed a 7-segment display counter using CD4026 and 555 Timer, with an RC debounce circuit for accurate pulse counting.</p>
+  </div>
+  <div class="entry">
+    <h3>Green House Control System (BSc Project)</h3>
+    <a href="https://github.com/niikhilkavate/BSC-Electronics-Project.git">GitHub Repo</a>
+    <p>PIC Microcontroller Based Green House Control Automatic irrigation system.</p>
+  </div>
+  <div class="entry">
+    <h3>Suryasankalp (MSc Project)</h3>
+    <a href="https://github.com/niikhilkavate/MSC-Electronics-Project.git">GitHub Repo</a>
+    <p>Designed a solar power-based off-grid storage system for home automation.</p>
+  </div>
+  <div class="entry">
+    <h3>DriveSafe (CDAC Project)</h3>
+    <a href="https://github.com/niikhilkavate/PG_Diploma-Electronics-Project..git">GitHub Repo</a>
+    <p>Developed a smart vehicle safety system with alcohol detection, ignition control, and real-time speed tracking via IoT.</p>
+  </div>
+
+  <!-- Education -->
+  <h2>Education</h2>
+  <div class="entry"><b>2025:</b> CDAC PG-DESD, Sunbeam Institute, Pune</div>
+  <div class="entry"><b>2024:</b> MSc Electronics Science, Modern College, Pune</div>
+  <div class="entry"><b>2022:</b> BSc Electronics Science, Modern College, Pune</div>
+  <div class="entry"><b>2017:</b> HSC Science (Electronics), Abasaheb Garware College, Pune</div>
+  <div class="entry"><b>2015:</b> SSC General, Laxman Rao Apte Prashala, Pune</div>
+
+  <!-- Experience -->
+  <h2>Experience</h2>
+  <div class="entry">
+    <h3>Wipro PARI Pvt Ltd (08/2022 – 11/2023)</h3>
+    <ul>
+      <li>Reviewed code changes to ensure adherence to standards and quality.</li>
+      <li>Wrote, modified, and maintained control software per project requirements.</li>
+      <li>Investigated and fixed software defects reported by testers or users.</li>
+      <li>Collaborated with hardware engineers and system architects for integration.</li>
+    </ul>
+  </div>
+
+  <!-- Certificates -->
+  <h2>Certificates</h2>
+  <div class="entry">
+    <b>Jul 2023:</b> National Apprenticeship Training Scheme, NATS –
+    <a href="https://mhrdnats.gov.in/about-us">Ministry of Education (MoE), Government of India</a>
+  </div>
+  <div class="entry">
+    <b>Aug 2024:</b> PG Diploma in Embedded Systems and Design (PG-DESD) –
+    <a href="https://cdac.in/index.aspx?id=about">C-DAC</a>
+  </div>
+
+  <!-- Languages -->
+  <h2>Languages</h2>
+  <p><b>English</b>, <b>Marathi</b>, <b>Hindi</b></p>
 
 </body>
 </html>
