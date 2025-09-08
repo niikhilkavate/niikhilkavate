@@ -1,124 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Nikhil K. Kavate - Resume</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      line-height: 1.6;
-      margin: 40px;
-      color: #fff;
-      min-height: 200vh; /* so scrolling works */
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nikhil K. Kavate - Resume</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 40px;
+    color: #fff;
+    min-height: 200vh;
+    background: linear-gradient(270deg, #1e3c72, #2a5298, #ff6a00, #ee0979);
+    background-size: 800% 800%;
+    background-attachment: fixed;
+    background-position: 0% 50%;
+  }
 
-      /* Gradient background */
-      background: linear-gradient(270deg, #1e3c72, #2a5298, #ff6a00, #ee0979);
-      background-size: 800% 800%;
-      background-attachment: fixed; /* gradient tied to scroll */
-      background-position: 0% 50%;
-    }
+  h2 {
+    border-bottom: 2px solid #fff;
+    padding-bottom: 4px;
+    margin-top: 30px;
+    text-transform: uppercase;
+  }
 
-    h2 {
-      border-bottom: 2px solid #fff;
-      padding-bottom: 4px;
-      margin-top: 30px;
-      text-transform: uppercase;
-    }
+  .header { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 20px; }
 
-    .header {
-      display: flex;
-      justify-content: space-between;
-      align-items: flex-start;
-      margin-bottom: 20px;
-    }
+  .name { font-size: 37px; font-weight: bold; text-transform: uppercase; }
+  .title { font-size: 20px; margin-top: 5px; }
+  .contact { font-size: 16px; }
+  .contact i { margin-right: 8px; color: #fff; }
+  .contact a { color: #fff; text-decoration: none; }
+  .contact a:hover { text-decoration: underline; }
 
-    .name {
-      font-size: 37px; /* increased by 3px */
-      font-weight: bold;
-      text-transform: uppercase;
-    }
+  .section { margin-top: 20px; }
+  .entry { margin-bottom: 12px; }
+  .entry h3 { margin: 2px 0; font-size: 17px; font-weight: bold; }
+  .entry a { color: #ffeb3b; text-decoration: none; }
 
-    .title {
-      font-size: 20px;
-      margin-top: 5px;
-    }
-
-    .contact {
-      font-size: 16px;
-    }
-
-    .contact i {
-      margin-right: 8px;
-      color: #fff;
-    }
-
-    .contact a {
-      color: #fff;
-      text-decoration: none;
-    }
-
-    .contact a:hover {
-      text-decoration: underline;
-    }
-
-    .section {
-      margin-top: 20px;
-    }
-
-    .entry {
-      margin-bottom: 12px;
-    }
-
-    .entry h3 {
-      margin: 2px 0;
-      font-size: 17px;
-      font-weight: bold;
-    }
-
-    .entry a {
-      color: #ffeb3b;
-      text-decoration: none;
-    }
-
-    .skills-list {
-      display: grid;
-      grid-template-columns: 150px auto;
-      row-gap: 6px;
-      font-size: 14px;
-    }
-
-    ul {
-      margin: 4px 0 0 20px;
-    }
-  </style>
-  <script>
-    function copyEmail(event) {
-      event.preventDefault();
-      const email = "nikhilkavate@gmail.com";
-      navigator.clipboard.writeText(email).then(() => {
-        alert("Email copied to clipboard: " + email);
-      });
-    }
-
-    function copyPhone(event) {
-      event.preventDefault();
-      const phone = "8888124704";
-      navigator.clipboard.writeText(phone).then(() => {
-        alert("Phone number copied to clipboard: " + phone);
-      });
-    }
-
-    // Gradient scroll with page
-    window.addEventListener("scroll", () => {
-      const scrollTop = window.scrollY; 
-      const docHeight = document.body.scrollHeight - window.innerHeight;
-      const scrollPercent = scrollTop / docHeight;
-      const position = scrollPercent * 100;
-      document.body.style.backgroundPosition = `${position}% 50%`;
+  .skills-list { display: grid; grid-template-columns: 150px auto; row-gap: 6px; font-size: 14px; }
+  ul { margin: 4px 0 0 20px; }
+</style>
+<script>
+  function copyEmail(event) {
+    event.preventDefault();
+    const email = "nikhilkavate@gmail.com";
+    navigator.clipboard.writeText(email).then(() => {
+      alert("Email copied to clipboard: " + email);
     });
-  </script>
+  }
+
+  function copyPhone(event) {
+    event.preventDefault();
+    const phone = "8888124704";
+    navigator.clipboard.writeText(phone).then(() => {
+      alert("Phone number copied to clipboard: " + phone);
+    });
+  }
+
+  // Smooth gradient scroll
+  let targetPosition = 0;
+  let currentPosition = 0;
+
+  window.addEventListener("scroll", () => {
+    const scrollTop = window.scrollY;
+    const docHeight = document.body.scrollHeight - window.innerHeight;
+    targetPosition = (scrollTop / docHeight) * 100;
+  });
+
+  function animateGradient() {
+    currentPosition += (targetPosition - currentPosition) * 0.05; // smooth easing
+    document.body.style.backgroundPosition = `${currentPosition}% 50%`;
+    requestAnimationFrame(animateGradient);
+  }
+  requestAnimationFrame(animateGradient);
+</script>
 </head>
 <body>
 
