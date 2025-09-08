@@ -53,6 +53,13 @@
       margin-right: 8px;
       color: #fff;
     }
+    .contact a {
+      color: #fff;              /* links white */
+      text-decoration: none;    /* remove underline */
+    }
+    .contact a:hover {
+      color: #ffeb3b;           /* gold highlight on hover */
+    }
     .section {
       margin-top: 20px;
     }
@@ -65,8 +72,11 @@
       font-weight: bold;
     }
     .entry a {
-      color: #ffeb3b;
+      color: #ffeb3b;           /* keep project/certificate links gold */
       text-decoration: none;
+    }
+    .entry a:hover {
+      color: #fff;              /* invert effect on hover */
     }
     .skills-list {
       display: grid;
