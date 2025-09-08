@@ -12,7 +12,7 @@
       margin: 40px;
       color: #fff; /* text white for contrast */
       min-height: 200vh; /* so scrolling works */
-      
+
       /* Gradient background */
       background: linear-gradient(270deg, #1e3c72, #2a5298, #ff6a00, #ee0979);
       background-size: 800% 800%;
@@ -38,12 +38,12 @@
       margin-bottom: 20px;
     }
     .name {
-      font-size: 24px;
+      font-size: 25px; /* increased from 24px */
       font-weight: bold;
       text-transform: uppercase;
     }
     .title {
-      font-size: 18px;
+      font-size: 19px; /* increased from 18px */
       margin-top: 5px;
     }
     .contact {
@@ -54,11 +54,11 @@
       color: #fff;
     }
     .contact a {
-      color: #fff;              /* links white */
-      text-decoration: none;    /* remove underline */
+      color: #fff;
+      text-decoration: none;
     }
     .contact a:hover {
-      color: #ffeb3b;           /* gold highlight on hover */
+      color: #ffcc00;
     }
     .section {
       margin-top: 20px;
@@ -68,15 +68,12 @@
     }
     .entry h3 {
       margin: 2px 0;
-      font-size: 16px;
+      font-size: 17px; /* increased from 16px */
       font-weight: bold;
     }
     .entry a {
-      color: #ffeb3b;           /* keep project/certificate links gold */
+      color: #ffeb3b;
       text-decoration: none;
-    }
-    .entry a:hover {
-      color: #fff;              /* invert effect on hover */
     }
     .skills-list {
       display: grid;
@@ -100,9 +97,15 @@
     <div class="contact">
       <div><i class="fa fa-phone"></i> 88 8812 4704</div>
       <div><i class="fa fa-map-marker-alt"></i> Pune, India</div>
-      <div><i class="fa fa-envelope"></i> <a href="mailto:nikhilkavate@gmail.com">nikhilkavate@gmail.com</a></div>
-      <div><i class="fab fa-github"></i> <a href="https://github.com/niikhilkavate">github.com/niikhilkavate</a></div>
-      <div><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/nikhil-kavate-7b7bb3263">linkedin.com/in/nikhil-kavate</a></div>
+      <div><i class="fa fa-envelope"></i> 
+        <a href="mailto:nikhilkavate@gmail.com" onclick="copyEmail(event)">nikhilkavate@gmail.com</a>
+      </div>
+      <div><i class="fab fa-github"></i> 
+        <a href="https://github.com/niikhilkavate" target="_blank">github.com/niikhilkavate</a>
+      </div>
+      <div><i class="fab fa-linkedin"></i> 
+        <a href="https://www.linkedin.com/in/nikhil-kavate-7b7bb3263" target="_blank">linkedin.com/in/nikhil-kavate</a>
+      </div>
     </div>
   </div>
 
@@ -128,22 +131,22 @@
   <h2>Projects</h2>
   <div class="entry">
     <h3>Counter Circuit (BSc Mini Project)</h3>
-    <a href="https://github.com/niikhilkavate/BSC-Electronics-Mini-Project.git">GitHub Repo</a>
+    <a href="https://github.com/niikhilkavate/BSC-Electronics-Mini-Project.git" target="_blank">GitHub Repo</a>
     <p>Developed a 7-segment display counter using CD4026 and 555 Timer, with an RC debounce circuit for accurate pulse counting.</p>
   </div>
   <div class="entry">
     <h3>Green House Control System (BSc Project)</h3>
-    <a href="https://github.com/niikhilkavate/BSC-Electronics-Project.git">GitHub Repo</a>
+    <a href="https://github.com/niikhilkavate/BSC-Electronics-Project.git" target="_blank">GitHub Repo</a>
     <p>PIC Microcontroller Based Green House Control Automatic irrigation system.</p>
   </div>
   <div class="entry">
     <h3>Suryasankalp (MSc Project)</h3>
-    <a href="https://github.com/niikhilkavate/MSC-Electronics-Project.git">GitHub Repo</a>
+    <a href="https://github.com/niikhilkavate/MSC-Electronics-Project.git" target="_blank">GitHub Repo</a>
     <p>Designed a solar power-based off-grid storage system for home automation.</p>
   </div>
   <div class="entry">
     <h3>DriveSafe (CDAC Project)</h3>
-    <a href="https://github.com/niikhilkavate/PG_Diploma-Electronics-Project..git">GitHub Repo</a>
+    <a href="https://github.com/niikhilkavate/PG_Diploma-Electronics-Project..git" target="_blank">GitHub Repo</a>
     <p>Developed a smart vehicle safety system with alcohol detection, ignition control, and real-time speed tracking via IoT.</p>
   </div>
 
@@ -171,16 +174,26 @@
   <h2>Certificates</h2>
   <div class="entry">
     <b>Jul 2023:</b> National Apprenticeship Training Scheme, NATS –
-    <a href="https://nats.education.gov.in/about-us.php">Ministry of Education (MoE), Government of India</a>
+    <a href="https://nats.education.gov.in/about-us.php" target="_blank">Ministry of Education (MoE), Government of India</a>
   </div>
   <div class="entry">
     <b>Aug 2024:</b> PG Diploma in Embedded Systems and Design (PG-DESD) –
-    <a href="https://cdac.in/index.aspx?id=about">C-DAC</a>
+    <a href="https://cdac.in/index.aspx?id=about" target="_blank">C-DAC</a>
   </div>
 
   <!-- Languages -->
   <h2>Languages</h2>
   <p><b>English</b>, <b>Marathi</b>, <b>Hindi</b></p>
+
+  <script>
+    function copyEmail(event) {
+      event.preventDefault();
+      const email = "nikhilkavate@gmail.com";
+      navigator.clipboard.writeText(email).then(() => {
+        alert("Email copied to clipboard: " + email);
+      });
+    }
+  </script>
 
 </body>
 </html>
