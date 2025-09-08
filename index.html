@@ -60,7 +60,7 @@
     }
 
     .contact a {
-      color: #fff; /* changed back to white */
+      color: #fff; /* keep links white */
       text-decoration: none;
     }
 
@@ -106,6 +106,14 @@
         alert("Email copied to clipboard: " + email);
       });
     }
+
+    function copyPhone(event) {
+      event.preventDefault();
+      const phone = "8888124704";
+      navigator.clipboard.writeText(phone).then(() => {
+        alert("Phone number copied to clipboard: " + phone);
+      });
+    }
   </script>
 </head>
 <body>
@@ -117,7 +125,9 @@
       <div class="title">Embedded Developer ~ Engineer</div>
     </div>
     <div class="contact"> 
-      <div><i class="fa fa-phone"></i> 88 8812 4704</div>
+      <div><i class="fa fa-phone"></i> 
+        <a href="#" onclick="copyPhone(event)">88 8812 4704</a>
+      </div>
       <div><i class="fa fa-map-marker-alt"></i> Pune, India</div>
       <div><i class="fa fa-envelope"></i> 
         <a href="mailto:nikhilkavate@gmail.com" onclick="copyEmail(event)">nikhilkavate@gmail.com</a>
