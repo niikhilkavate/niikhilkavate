@@ -12,7 +12,7 @@
       margin: 40px;
       color: #fff; /* text white for contrast */
       min-height: 200vh; /* so scrolling works */
-
+      
       /* Gradient background */
       background: linear-gradient(270deg, #1e3c72, #2a5298, #ff6a00, #ee0979);
       background-size: 800% 800%;
@@ -31,60 +31,73 @@
       margin-top: 30px;
       text-transform: uppercase;
     }
+
     .header {
       display: flex;
       justify-content: space-between;
       align-items: flex-start;
       margin-bottom: 20px;
     }
+
     .name {
-      font-size: 25px; /* increased from 24px */
+      font-size: 26px; /* increased by 2px */
       font-weight: bold;
       text-transform: uppercase;
     }
+
     .title {
-      font-size: 19px; /* increased from 18px */
+      font-size: 20px; /* increased by 2px */
       margin-top: 5px;
     }
+
     .contact {
-      font-size: 14px;
+      font-size: 16px; /* increased from 14px → 16px */
     }
+
     .contact i {
       margin-right: 8px;
       color: #fff;
     }
-    .contact a {
-      color: #fff;
-      text-decoration: none;
-    }
-    .contact a:hover {
-      color: #ffcc00;
-    }
+
     .section {
       margin-top: 20px;
     }
+
     .entry {
       margin-bottom: 12px;
     }
+
     .entry h3 {
       margin: 2px 0;
-      font-size: 17px; /* increased from 16px */
+      font-size: 17px; /* already increased by 1px */
       font-weight: bold;
     }
+
     .entry a {
       color: #ffeb3b;
       text-decoration: none;
     }
+
     .skills-list {
       display: grid;
       grid-template-columns: 150px auto;
       row-gap: 6px;
       font-size: 14px;
     }
+
     ul {
       margin: 4px 0 0 20px;
     }
   </style>
+  <script>
+    function copyEmail(event) {
+      event.preventDefault();
+      const email = "nikhilkavate@gmail.com";
+      navigator.clipboard.writeText(email).then(() => {
+        alert("Email copied to clipboard: " + email);
+      });
+    }
+  </script>
 </head>
 <body>
 
@@ -94,7 +107,7 @@
       <div class="name">Nikhil K. Kavate</div>
       <div class="title">Embedded Developer ~ Engineer</div>
     </div>
-    <div class="contact">
+    <div class="contact"> 
       <div><i class="fa fa-phone"></i> 88 8812 4704</div>
       <div><i class="fa fa-map-marker-alt"></i> Pune, India</div>
       <div><i class="fa fa-envelope"></i> 
@@ -184,16 +197,6 @@
   <!-- Languages -->
   <h2>Languages</h2>
   <p><b>English</b>, <b>Marathi</b>, <b>Hindi</b></p>
-
-  <script>
-    function copyEmail(event) {
-      event.preventDefault();
-      const email = "nikhilkavate@gmail.com";
-      navigator.clipboard.writeText(email).then(() => {
-        alert("Email copied to clipboard: " + email);
-      });
-    }
-  </script>
 
 </body>
 </html>
